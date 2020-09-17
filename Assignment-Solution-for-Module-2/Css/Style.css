@@ -1,17 +1,23 @@
 /********** Base styles **********/
 *{
   box-sizing: border-box;
-}
-h1{
-  text-align: center;
   font-family: cursive;
 }
+
+h1{
+  text-align: center;
+}
+
+a{
+  color: red;
+  font-weight: bold;
+}
+
 .titre{
   float: right;
   clear: both;
   width: 40%;
   text-align: center;
-  font-family: cursive;
   font-size: 1.1em;
   font-weight: bold;
   padding: 2px 10px;
@@ -19,6 +25,26 @@ h1{
   border-color: black;
   border-width: 0px 0px 3px 3px;
   margin: 0px;
+}
+
+
+.info{
+  padding-top: 10px;
+  margin: 7px;
+  clear: right;
+}
+
+.footer {
+  clear: right;
+  width: 100%;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  font-size: 1.5em;
+  text-align: right;
+  border-width: 3px 3px 3px 3px;
+  border-style: solid;
+  border-color: black;
+  background-color: #E5D198;
 }
 
 #Chicken{
@@ -34,21 +60,14 @@ h1{
   background-color: #E5D198;
 }
 
+/* Simple Responsive Framework. */
 .container{
   background-color: #999999;
   clear: right;
   border: 3px solid black;
   margin: 10px;
 }
-.info{
-  padding-top: 10px;
-  margin: 7px;
-  clear: right;
-  font-family: cursive;
-}
 
-
-/* Simple Responsive Framework. */
 .row {
   width: 100%;
 }
@@ -97,6 +116,9 @@ h1{
   .h1-lg{
     margin-bottom: 60px;
   }
+  .lg-lastContainer{
+    margin-bottom: 190px;
+  }
 }
 
 /********** Medium devices only **********/
@@ -142,5 +164,8 @@ h1{
   }
   .h1-md{
     margin-bottom: 30px;
+  }
+  .md-lastContainer{
+    margin-bottom: 10px;
   }
 }
