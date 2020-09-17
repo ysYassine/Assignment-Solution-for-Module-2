@@ -17,7 +17,7 @@ h1{
   padding: 2px 10px;
   border-style: solid;
   border-color: black;
-  border-width: 0px 0px 1px 1px;
+  border-width: 0px 0px 3px 3px;
   margin: 0px;
 }
 
@@ -37,7 +37,7 @@ h1{
 .container{
   background-color: #999999;
   clear: right;
-  border: 1px solid black;
+  border: 3px solid black;
   margin: 10px;
 }
 .info{
@@ -94,11 +94,14 @@ h1{
   .col-lg-12 {
     width: 100%;
   }
+  .h1-lg{
+    margin-bottom: 60px;
+  }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
     float: left;
   }
   .col-md-1 {
@@ -136,5 +139,8 @@ h1{
   }
   .col-md-12 {
     width: 100%;
+  }
+  .h1-md{
+    margin-bottom: 30px;
   }
 }
