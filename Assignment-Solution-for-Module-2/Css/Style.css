@@ -39,6 +39,7 @@ a{
   width: 100%;
   padding-right: 4px;
   padding-bottom: 4px;
+  margin-top: 10px;
   font-size: 1.5em;
   text-align: right;
   border-width: 3px 3px 3px 3px;
@@ -116,9 +117,7 @@ a{
   .h1-lg{
     margin-bottom: 60px;
   }
-  .lg-lastContainer{
-    margin-bottom: 190px;
-  }
+
 }
 
 /********** Medium devices only **********/
@@ -165,7 +164,5 @@ a{
   .h1-md{
     margin-bottom: 30px;
   }
-  .md-lastContainer{
-    margin-bottom: 10px;
-  }
+
 }
